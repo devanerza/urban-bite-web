@@ -53,15 +53,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Navbar scroll effect
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('nav');
-        console.log('Scroll Y:', window.scrollY); // Debug log
+        // console.log('Scroll Y:', window.scrollY); // Debug log
         if (window.scrollY > 50) {
-            console.log('Adding scrolled class'); // Debug log
+            // console.log('Adding scrolled class'); // Debug log
             navbar.classList.add('scrolled');
         } else {
-            console.log('Removing scrolled class'); // Debug log
+            // console.log('Removing scrolled class'); // Debug log
             navbar.classList.remove('scrolled');
         }
-        console.log('Navbar classes:', navbar.className); // Debug log
+        // console.log('Navbar classes:', navbar.className); // Debug log
     });
   });
 
